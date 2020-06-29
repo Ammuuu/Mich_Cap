@@ -1,0 +1,88 @@
+.topnav {
+    overflow: hidden;
+    background: transparent;
+	display: flex;
+	justify-content: space-between;
+}
+
+.profile-nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.login-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topnav a {
+    display: block;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #f00;
+    transition: all 0.5s ease;
+    font-family: 'Lucida Sans';
+}
+
+.topnav a:hover {
+    color: white;
+}
+
+.topnav .profile-nav img {
+    height: 100%;
+    width: 3em;
+}
+
+.login-nav .active {
+    color: white;
+}
+
+.topnav .login-nav .to-blog {
+	color: #0f0;
+	border: 1px solid #0f0;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.topnav .login-nav .to-blog:hover {
+	color: #fff;
+	background-color: #0f0;
+}
+
+
+.main {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lucida Sans';
+    overflow: hidden;
+}
+
+#writing-text {
+    background: transparent;
+    color: #f00;
+    font-size: 1.5em;
+    font-family: courier;
+}
+
+.container {
+    flex-direction: column;
+    height: 34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 16px;
+    color: red;
+    transition: all 0.6s ease;
+}
+
+.contact:hover {
+    color: white;
+    background-color: red;
+}
